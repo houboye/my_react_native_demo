@@ -1,34 +1,51 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
+# Dependency directories
+node_modules/
+
+# Build artifacts
+android/app/build/
+android/build/
+ios/build/
+ios/DerivedData/
+ios/Pods/
+ios/.symlinks/
+ios/Podfile.lock
+temp/
+*.bundle
 *.apk
-output-metadata.json
+*.ipa
 
-# IntelliJ
-*.iml
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
-# Keystore files
-*.jks
-*.keystore
+# React Native specific
+/android/.gradle/
+/android/local.properties
+/ios/.xcode.env.local
+/ios/project.xcworkspace/xcuserdata/
+/ios/xcshareddata/
+/ios/*.xcodeproj/xcuserdata/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Metro Bundler cache
+.expo/
+.react-native/
+.cache/
