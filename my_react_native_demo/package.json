@@ -10,6 +10,19 @@
     "web": "expo start --web",
     "lint": "expo lint"
   },
+  "codegenConfig": {
+    "name": "NativeLocalStorageSpec",
+    "type": "modules",
+    "jsSrcsDir": "specs",
+    "android": {
+      "javaPackageName": "com.nativelocalstorage"
+    },
+    "ios": {
+       "modulesProvider": {
+         "NativeLocalStorage": "RCTNativeLocalStorage"
+       }
+    }
+  },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
     "@react-navigation/bottom-tabs": "^7.3.10",
