@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02A7344F2E602BC700BA206C /* RCTNativeLocalStorage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02A7344E2E602BC700BA206C /* RCTNativeLocalStorage.mm */; };
+		02A7345B2E6199C800BA206C /* RCTWebView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02A7345A2E6199C800BA206C /* RCTWebView.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		898F25052618008FDC1423CF /* libPods-myreactnativedemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 193F6D0A272B503A49BCD3F1 /* libPods-myreactnativedemo.a */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		02A7344D2E602BC700BA206C /* RCTNativeLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeLocalStorage.h; sourceTree = "<group>"; };
 		02A7344E2E602BC700BA206C /* RCTNativeLocalStorage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNativeLocalStorage.mm; sourceTree = "<group>"; };
+		02A734592E6199C800BA206C /* RCTWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTWebView.h; sourceTree = "<group>"; };
+		02A7345A2E6199C800BA206C /* RCTWebView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTWebView.mm; sourceTree = "<group>"; };
 		0B9C96087072B67FEEB77866 /* Pods-myreactnativedemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myreactnativedemo.release.xcconfig"; path = "Target Support Files/Pods-myreactnativedemo/Pods-myreactnativedemo.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* myreactnativedemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myreactnativedemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = myreactnativedemo/Images.xcassets; sourceTree = "<group>"; };
@@ -54,6 +57,15 @@
 				02A7344E2E602BC700BA206C /* RCTNativeLocalStorage.mm */,
 			);
 			path = NativeLocalStorage;
+			sourceTree = "<group>";
+		};
+		02A734582E61999E00BA206C /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				02A734592E6199C800BA206C /* RCTWebView.h */,
+				02A7345A2E6199C800BA206C /* RCTWebView.mm */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* myreactnativedemo */ = {
@@ -98,6 +110,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				02A734582E61999E00BA206C /* WebView */,
 				13B07FAE1A68108700A75B9A /* myreactnativedemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -333,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
+				02A7345B2E6199C800BA206C /* RCTWebView.mm in Sources */,
 				D8639BFFE997F7C05AB82ECA /* ExpoModulesProvider.swift in Sources */,
 				02A7344F2E602BC700BA206C /* RCTNativeLocalStorage.mm in Sources */,
 			);

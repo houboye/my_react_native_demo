@@ -22,7 +22,7 @@
          "NativeLocalStorage": "RCTNativeLocalStorage"
        },
        "componentProvider": {
-        
+         "CustomWebView": "RCTWebView"
        }
     }
   },
