@@ -2,7 +2,7 @@
 //  TurboModuleExample
 
 #import <Foundation/Foundation.h>
-#import <NativeLocalStorageSpec/NativeLocalStorageSpec.h>
+#import <AppSpecs/AppSpecs.h>
 
 @interface RCTNativeLocalStorage : NSObject <NativeLocalStorageSpec>
 

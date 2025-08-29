@@ -11,15 +11,18 @@
     "lint": "expo lint"
   },
   "codegenConfig": {
-    "name": "NativeLocalStorageSpec",
-    "type": "modules",
+    "name": "AppSpecs",
+    "type": "all",
     "jsSrcsDir": "specs",
     "android": {
-      "javaPackageName": "com.nativelocalstorage"
+      "javaPackageName": "com.anonymous.myreactnativedemo"
     },
     "ios": {
-       "modulesProvider": {
+      "modulesProvider": {
          "NativeLocalStorage": "RCTNativeLocalStorage"
+       },
+       "componentProvider": {
+        
        }
     }
   },

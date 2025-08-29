@@ -15,7 +15,7 @@ import com.facebook.soloader.SoLoader
 
 import expo.modules.ApplicationLifecycleDispatcher
 import expo.modules.ReactNativeHostWrapper
-import com.nativelocalstorage.NativeLocalStoragePackage
+import com.anonymous.myreactnativedemo.NativeLocalStoragePackage
 
 class MainApplication : Application(), ReactApplication {
 

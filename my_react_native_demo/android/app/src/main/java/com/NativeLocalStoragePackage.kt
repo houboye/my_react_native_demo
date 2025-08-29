@@ -1,4 +1,4 @@
-package com.nativelocalstorage
+package com.anonymous.myreactnativedemo
 
 import com.facebook.react.BaseReactPackage
 import com.facebook.react.bridge.NativeModule
